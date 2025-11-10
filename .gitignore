@@ -1,0 +1,57 @@
+# Ignore large data directories
+/data/
+data/
+datasets/
+*data
+
+# Keep a placeholder if you need to track an empty folder
+# Uncomment if you add a .gitkeep in data to keep the folder in repo
+# !data/.gitkeep
+
+# Common large file types
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.gz
+*.bz2
+*.rar
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.sav
+*.mat
+
+# Large media files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+
+# OS / editor temp files
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.tmp
